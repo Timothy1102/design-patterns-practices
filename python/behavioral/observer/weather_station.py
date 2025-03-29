@@ -1,16 +1,19 @@
-from observer_pattern import Subject
+from typing import List
+
+from python.behavioral.observer.observer_pattern import Subject, Observer
+
 
 class WeatherStation(Subject):
     """
     The WeatherStation maintains a state and notifies observers when it changes.
     """
     def __init__(self):
-        self._observers = []
+        self._observers: List[Observer] = []
         self._temperature = 0
         self._humidity = 0
         self._pressure = 0
 
-    def attach(self, observer):
+    def attach(self, observer: Observer):
         """
         Attach an observer to the weather station.
         """

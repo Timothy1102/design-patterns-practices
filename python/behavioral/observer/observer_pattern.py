@@ -1,15 +1,3 @@
-"""
-Observer Design Pattern Implementation
-
-The Observer pattern defines a one-to-many dependency between objects so that
-when one object changes state, all its dependents are notified and updated automatically.
-
-Key components:
-- Subject: Maintains a list of observers and notifies them of state changes
-- Observer: Interface that defines the update method for observers
-- ConcreteObserver: Implements the Observer interface to respond to updates
-"""
-
 from abc import ABC, abstractmethod
 
 class Observer(ABC):
