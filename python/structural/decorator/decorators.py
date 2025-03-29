@@ -1,4 +1,4 @@
-from python.behavioral.decorator.coffee import Coffee
+from python.structural.decorator.coffee import Coffee
 
 
 class CoffeeDecorator(Coffee):
