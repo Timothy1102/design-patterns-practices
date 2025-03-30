@@ -1,6 +1,6 @@
 from typing import List
 
-from python.behavioral.observer.observer_pattern import Subject, Observer
+from observer_pattern import Subject, Observer
 
 
 class WeatherStation(Subject):

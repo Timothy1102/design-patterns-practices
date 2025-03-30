@@ -10,8 +10,8 @@ Key components:
 - Decorator: Base class for all decorators, maintains a reference to a Component
 - ConcreteDecorator: Adds specific responsibilities to the component
 """
-from python.structural.decorator.coffee import SimpleCoffee
-from python.structural.decorator.decorators import (
+from python.structural.decorator.example1.coffee import SimpleCoffee
+from python.structural.decorator.example1.decorators import (
     MilkDecorator,
     WhipDecorator,
     VanillaDecorator,
